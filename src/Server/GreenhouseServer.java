@@ -20,13 +20,13 @@ public class GreenhouseServer {
             socket = serverSocket.accept();
             System.out.println("New client connected");
 
-            GreenhouseServerInput greenhouseServerInput = new GreenhouseServerInput(socket);
-            GreenhouseServerOutput greenhouseServerOutput = new GreenhouseServerOutput(socket);
+            while (true) {
+                GreenhouseServerInput greenhouseServerInput = new GreenhouseServerInput(socket);
+                GreenhouseServerOutput greenhouseServerOutput = new GreenhouseServerOutput(socket);
 
-            recievedData = greenhouseServerInput.inputData();
-
-
-
+                recievedData = greenhouseServerInput.inputData();
+                System.out.println(recievedData);
+            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

@@ -6,8 +6,8 @@ import java.net.Socket;
 
 public class SensorClientOutput {
 
-    private String host;
-    private int port;
+    private final String host;
+    private final int port;
 
 
     public SensorClientOutput(String hostname, int port) {
