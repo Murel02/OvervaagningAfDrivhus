@@ -1,0 +1,87 @@
+SensorType: Temperature, Value: 29, TimeStamp: 18-09-2024 11:02:12
+SensorType: Air moisture, Value: 51, TimeStamp: 18-09-2024 11:02:12
+SensorType: Earth moisture, Value: 88, TimeStamp: 18-09-2024 11:02:12
+SensorType: Temperature, Value: 28, TimeStamp: 18-09-2024 11:02:14
+SensorType: Air moisture, Value: 84, TimeStamp: 18-09-2024 11:02:14
+SensorType: Earth moisture, Value: 79, TimeStamp: 18-09-2024 11:02:14
+SensorType: Temperature, Value: 16, TimeStamp: 18-09-2024 11:02:16
+SensorType: Air moisture, Value: 98, TimeStamp: 18-09-2024 11:02:16
+SensorType: Earth moisture, Value: 81, TimeStamp: 18-09-2024 11:02:16
+SensorType: Temperature, Value: 16, TimeStamp: 18-09-2024 11:02:18
+SensorType: Air moisture, Value: 84, TimeStamp: 18-09-2024 11:02:18
+SensorType: Earth moisture, Value: 27, TimeStamp: 18-09-2024 11:02:18
+SensorType: Temperature, Value: 11, TimeStamp: 18-09-2024 11:02:20
+SensorType: Air moisture, Value: 35, TimeStamp: 18-09-2024 11:02:20
+SensorType: Earth moisture, Value: 76, TimeStamp: 18-09-2024 11:02:20
+SensorType: Temperature, Value: 39, TimeStamp: 18-09-2024 11:02:22
+SensorType: Air moisture, Value: 37, TimeStamp: 18-09-2024 11:02:22
+SensorType: Earth moisture, Value: 85, TimeStamp: 18-09-2024 11:02:22
+SensorType: Temperature, Value: 47, TimeStamp: 18-09-2024 11:02:24
+SensorType: Air moisture, Value: 66, TimeStamp: 18-09-2024 11:02:24
+SensorType: Earth moisture, Value: 74, TimeStamp: 18-09-2024 11:02:24
+SensorType: Temperature, Value: 18, TimeStamp: 18-09-2024 11:02:26
+SensorType: Air moisture, Value: 35, TimeStamp: 18-09-2024 11:02:26
+SensorType: Earth moisture, Value: 82, TimeStamp: 18-09-2024 11:02:26
+SensorType: Temperature, Value: 55, TimeStamp: 18-09-2024 11:02:28
+SensorType: Air moisture, Value: 98, TimeStamp: 18-09-2024 11:02:28
+SensorType: Earth moisture, Value: 35, TimeStamp: 18-09-2024 11:02:28
+SensorType: Temperature, Value: 12, TimeStamp: 18-09-2024 11:02:30
+SensorType: Air moisture, Value: 40, TimeStamp: 18-09-2024 11:02:30
+SensorType: Earth moisture, Value: 87, TimeStamp: 18-09-2024 11:02:30
+SensorType: Temperature, Value: 10, TimeStamp: 18-09-2024 11:02:32
+SensorType: Air moisture, Value: 58, TimeStamp: 18-09-2024 11:02:32
+SensorType: Earth moisture, Value: 72, TimeStamp: 18-09-2024 11:02:32
+SensorType: Temperature, Value: 23, TimeStamp: 18-09-2024 11:02:34
+SensorType: Air moisture, Value: 75, TimeStamp: 18-09-2024 11:02:34
+SensorType: Earth moisture, Value: 33, TimeStamp: 18-09-2024 11:02:34
+SensorType: Temperature, Value: 46, TimeStamp: 18-09-2024 11:02:36
+SensorType: Air moisture, Value: 87, TimeStamp: 18-09-2024 11:02:36
+SensorType: Earth moisture, Value: 47, TimeStamp: 18-09-2024 11:02:36
+SensorType: Temperature, Value: 60, TimeStamp: 18-09-2024 11:02:38
+SensorType: Air moisture, Value: 100, TimeStamp: 18-09-2024 11:02:38
+SensorType: Earth moisture, Value: 100, TimeStamp: 18-09-2024 11:02:38
+SensorType: Temperature, Value: 26, TimeStamp: 18-09-2024 11:02:40
+SensorType: Air moisture, Value: 35, TimeStamp: 18-09-2024 11:02:40
+SensorType: Earth moisture, Value: 76, TimeStamp: 18-09-2024 11:02:40
+SensorType: Temperature, Value: 24, TimeStamp: 18-09-2024 11:02:42
+SensorType: Air moisture, Value: 68, TimeStamp: 18-09-2024 11:02:42
+SensorType: Earth moisture, Value: 80, TimeStamp: 18-09-2024 11:02:42
+SensorType: Temperature, Value: 56, TimeStamp: 18-09-2024 11:02:44
+SensorType: Air moisture, Value: 35, TimeStamp: 18-09-2024 11:02:44
+SensorType: Earth moisture, Value: 83, TimeStamp: 18-09-2024 11:02:44
+SensorType: Temperature, Value: 39, TimeStamp: 18-09-2024 11:02:46
+SensorType: Air moisture, Value: 83, TimeStamp: 18-09-2024 11:02:46
+SensorType: Earth moisture, Value: 46, TimeStamp: 18-09-2024 11:02:46
+SensorType: Temperature, Value: 60, TimeStamp: 18-09-2024 11:02:48
+SensorType: Air moisture, Value: 88, TimeStamp: 18-09-2024 11:02:48
+SensorType: Earth moisture, Value: 61, TimeStamp: 18-09-2024 11:02:48
+SensorType: Temperature, Value: 60, TimeStamp: 18-09-2024 11:02:50
+SensorType: Air moisture, Value: 34, TimeStamp: 18-09-2024 11:02:50
+SensorType: Earth moisture, Value: 55, TimeStamp: 18-09-2024 11:02:50
+SensorType: Temperature, Value: 40°C, TimeStamp: 18-09-2024 11:11:34
+SensorType: Air moisture, Value: 72%, TimeStamp: 18-09-2024 11:11:34
+SensorType: Earth moisture, Value: 50%, TimeStamp: 18-09-2024 11:11:34
+SensorType: Temperature, Value: 45°C, TimeStamp: 18-09-2024 11:11:36
+SensorType: Air moisture, Value: 94%, TimeStamp: 18-09-2024 11:11:36
+SensorType: Earth moisture, Value: 40%, TimeStamp: 18-09-2024 11:11:36
+SensorType: Temperature, Value: 51°C, TimeStamp: 18-09-2024 11:11:38
+SensorType: Air moisture, Value: 69%, TimeStamp: 18-09-2024 11:11:38
+SensorType: Earth moisture, Value: 40%, TimeStamp: 18-09-2024 11:11:38
+SensorType: Temperature, Value: 46°C, TimeStamp: 18-09-2024 11:11:40
+SensorType: Air moisture, Value: 96%, TimeStamp: 18-09-2024 11:11:40
+SensorType: Earth moisture, Value: 55%, TimeStamp: 18-09-2024 11:11:40
+SensorType: Temperature, Value: 55°C, TimeStamp: 18-09-2024 11:11:42
+SensorType: Air moisture, Value: 48%, TimeStamp: 18-09-2024 11:11:42
+SensorType: Earth moisture, Value: 92%, TimeStamp: 18-09-2024 11:11:42
+SensorType: Temperature, Value: 15°C, TimeStamp: 18-09-2024 11:11:44
+SensorType: Air moisture, Value: 31%, TimeStamp: 18-09-2024 11:11:44
+SensorType: Earth moisture, Value: 91%, TimeStamp: 18-09-2024 11:11:44
+SensorType: Temperature, Value: 49°C, TimeStamp: 18-09-2024 11:11:46
+SensorType: Air moisture, Value: 92%, TimeStamp: 18-09-2024 11:11:46
+SensorType: Earth moisture, Value: 50%, TimeStamp: 18-09-2024 11:11:46
+SensorType: Temperature, Value: 28°C, TimeStamp: 18-09-2024 11:11:48
+SensorType: Air moisture, Value: 97%, TimeStamp: 18-09-2024 11:11:48
+SensorType: Earth moisture, Value: 95%, TimeStamp: 18-09-2024 11:11:48
+SensorType: Temperature, Value: 53°C, TimeStamp: 18-09-2024 11:11:50
+SensorType: Air moisture, Value: 38%, TimeStamp: 18-09-2024 11:11:50
+SensorType: Earth moisture, Value: 84%, TimeStamp: 18-09-2024 11:11:50
