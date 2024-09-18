@@ -13,7 +13,7 @@ public class AlarmManager {
     public void checkForAlarms(SensorData data){
 
     }
-
+      /*sender en beskiv hvor den foteller under eller over skiver values */
     private void triggerAlarm(String type, int value){
         System.out.println("ALARM: " + type + " value is out of range " + value);
     }
