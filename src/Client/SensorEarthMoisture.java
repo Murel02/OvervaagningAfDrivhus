@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 public class SensorEarthMoisture {
     public int earthMoisture() {
         Random randomEarthMoisture = new Random();
-        return randomEarthMoisture.nextInt( 1 + 100) + 20;
+        return randomEarthMoisture.nextInt( 1 + 80) + 20;
     }
 
     public SensorData generateEarthMoisture() {
@@ -20,26 +20,4 @@ public class SensorEarthMoisture {
         return sensorData;
     }
 
-
-
-    /*public void sendToClient(double earthMoisture) {
-
-        Logger logger = Logger.getLogger(SensorAirMoisture.class.getName());
-        logger.info("Moisture send to Client.SensorClient " + earthMoisture + "%");
-
-
-    }
-
-    public sensorRunner {
-        Timer timer = new Timer();
-        timer.scheduleAtFixedRate(new TimerTask() {
-            @Override
-            public void run() {
-
-                double earthMoisture = earthMoisture();
-                sendToClient(earthMoisture);
-
-            }
-        }, 0, 1000);
-    }*/
 }
