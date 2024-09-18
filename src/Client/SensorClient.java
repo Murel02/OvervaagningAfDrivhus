@@ -39,7 +39,7 @@ public class SensorClient {
     }
 
 
-    public static void main(String[] args) {
+            public static void main(String[] args) {
        SensorClient client = new SensorClient("localhost", 5000);
        client.start();
     }

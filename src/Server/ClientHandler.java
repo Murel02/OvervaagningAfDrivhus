@@ -1,5 +1,4 @@
 package Server;
-
 import Client.SensorData;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -10,8 +9,8 @@ import java.nio.file.Paths;
 
 public class ClientHandler implements Runnable {
 
-    private Socket socket;
-    private AlarmManager alarmManager = new AlarmManager();
+    final private Socket socket;
+    final private AlarmManager alarmManager = new AlarmManager();
 
     public ClientHandler(Socket socket) {
         this.socket = socket;
