@@ -14,7 +14,7 @@ public class SensorEarthMoisture {
 
     public SensorData generateEarthMoisture() {
         SensorData sensorData = new SensorData();
-        sensorData.setSensorType("earth-moisture");
+        sensorData.setSensorType("Earth moisture");
         sensorData.setValue(earthMoisture());
         sensorData.setTimeStamp(LocalDateTime.now());
         return sensorData;

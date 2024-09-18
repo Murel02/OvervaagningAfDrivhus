@@ -50,7 +50,18 @@ public class SensorData {
         this.timeStamp = timeStamp;
     }
 
+    @Override
     public String toString(){
-        return "SensorType: " + sensorType + ", Value: " + value + ", TimeStamp: " + getFormattedTimeStamp();
+
+        String unit;
+        if (sensorType.equals("Temperature")){
+            unit = "°C";
+        } else if(sensorType.equals("Air moisture") || sensorType.equals("Earth moisture")){
+            unit = "%";
+        } else {
+            unit = "";
+        }
+
+        return "SensorType: " + sensorType + ", Value: " + value + unit + ", TimeStamp: " + getFormattedTimeStamp();
     }
 }

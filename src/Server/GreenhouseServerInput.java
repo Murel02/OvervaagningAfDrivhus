@@ -24,10 +24,13 @@ public class GreenhouseServerInput implements AutoCloseable{
             String sensorDataLine = reader.readLine();
             if (sensorDataLine == null) return null;
 
-            String[] parts = sensorDataLine.split(",");
+            String[] parts = sensorDataLine.split(", ");
             if (parts.length == 3) {
                 String sensorType = parts[0].replace("SensorType: ", "").trim();
-                int value = Integer.parseInt(parts[1].replace("Value: ", "").trim());
+
+                String valueStr = parts[1].replace("Value: ", "").trim();
+                int value = Integer.parseInt(valueStr.replaceAll("[^\\d]", ""));
+               // int value = Integer.parseInt(parts[1].replace("Value: ", "").trim());
                 String timeStamp = parts[2].replace("TimeStamp: ", "").trim();
 
                 LocalDateTime parsedTimeSetup = LocalDateTime.parse(timeStamp, formatter);

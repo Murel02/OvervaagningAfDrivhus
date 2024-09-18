@@ -11,7 +11,7 @@ public class SensorAirMoisture {
     }
     public SensorData generateAirMoisture() {
         SensorData sensorData = new SensorData();
-        sensorData.setSensorType("air-moisture");
+        sensorData.setSensorType("Air moisture");
         sensorData.setValue(moisture());
         sensorData.setTimeStamp(LocalDateTime.now());
         return sensorData;

@@ -31,12 +31,13 @@ public class SensorClient {
                 output.sendData(sensorAirMoisture.generateAirMoisture());
                 output.sendData(sensorEarthMoisture.generateEarthMoisture());
 
-                Thread.sleep(5000);
+                Thread.sleep(2000);
             }
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
     }
+
 
     public static void main(String[] args) {
        SensorClient client = new SensorClient("localhost", 5000);
