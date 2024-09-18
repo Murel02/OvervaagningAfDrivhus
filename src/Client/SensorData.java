@@ -1,6 +1,9 @@
 package Client;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
 
 public class SensorData {
 
@@ -16,6 +19,11 @@ public class SensorData {
         this.sensorType = sensorType;
         this.value = value;
         this.timeStamp = timeStamp;
+    }
+
+    private String getFormattedTimeStamp(){
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        return timeStamp.format(formatter);
     }
 
     public String getSensorType() {
@@ -43,6 +51,6 @@ public class SensorData {
     }
 
     public String toString(){
-        return "SensorType: " + sensorType + " Value: " + value + " TimeStamp: " + timeStamp;
+        return "SensorType: " + sensorType + ", Value: " + value + ", TimeStamp: " + getFormattedTimeStamp();
     }
 }

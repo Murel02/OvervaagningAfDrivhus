@@ -6,21 +6,20 @@ import java.net.Socket;
 
 public class SensorClientOutput {
 
-    private final String host;
-    private final int port;
+    private final Socket socket;
+    private PrintWriter writer;
 
 
-    public SensorClientOutput(String hostname, int port) {
-        this.host = hostname;
-        this.port = port;
+    public SensorClientOutput(Socket socket) throws IOException{
+        this.socket = socket;
+        this.writer = new PrintWriter(socket.getOutputStream(), true);
     }
 
     public void sendData(SensorData data) {
-        try(Socket socket = new Socket(host, port)) {
-            OutputStream output = socket.getOutputStream();
-            DataOutputStream dataOutput = new DataOutputStream(output);
-            dataOutput.writeUTF(data.toString());
-        } catch (IOException e){
+        try{
+            writer.println(data.toString());
+            writer.flush();
+        } catch (Exception e){
             e.printStackTrace();
         }
     }

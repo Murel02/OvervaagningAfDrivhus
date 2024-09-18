@@ -5,23 +5,21 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class GreenhouseServerOutput {
-    Socket socket;
-    OutputStream outputStream;
+public class GreenhouseServerOutput implements AutoCloseable {
+    private Socket socket;
+    private PrintWriter writer;
 
-    public GreenhouseServerOutput(Socket socket) {
+    public GreenhouseServerOutput(Socket socket) throws IOException {
         this.socket = socket;
+        this.writer = new PrintWriter(socket.getOutputStream(), true);
     }
 
     public void alarm(String alarmMessage) {
-        try {
-            OutputStream output = socket.getOutputStream();
-            PrintWriter writer = new PrintWriter(output, true);
+        writer.println(alarmMessage);
+    }
 
-            writer.println(alarmMessage);
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+    @Override
+    public void close() throws IOException{
+        if (writer != null) writer.close();
     }
 }

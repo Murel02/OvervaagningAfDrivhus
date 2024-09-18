@@ -17,7 +17,10 @@ public class SensorClient {
             System.out.println("Client connected to server");
 
             //Send data til server
-            SensorClientOutput output = new SensorClientOutput(hostname, port);
+            SensorClientOutput output = new SensorClientOutput(socket);
+            SensorClientInput input = new SensorClientInput(socket);
+
+            new Thread(input::start).start();
 
             while(true){
                 SensorTemperature sensorTemperature = new SensorTemperature();
@@ -27,8 +30,10 @@ public class SensorClient {
                 output.sendData(sensorTemperature.generateTemperature());
                 output.sendData(sensorAirMoisture.generateAirMoisture());
                 output.sendData(sensorEarthMoisture.generateEarthMoisture());
+
+                Thread.sleep(5000);
             }
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
     }
